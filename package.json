@@ -7,7 +7,9 @@
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
+  "scripts": {
+    "seed": "--db errbnb --collection booking --file db/utils/data.json --jsonArray"
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.10.0",
