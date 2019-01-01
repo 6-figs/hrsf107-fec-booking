@@ -33,8 +33,8 @@ const Total = ({
 };
 
 Total.propTypes = {
-  checkInDate: PropTypes.string.isRequired,
-  checkOutDate: PropTypes.string.isRequired,
+  checkInDate: PropTypes.instanceOf(Date).isRequired,
+  checkOutDate: PropTypes.instanceOf(Date).isRequired,
   price: PropTypes.number.isRequired,
   serviceFee: PropTypes.number.isRequired,
   cleaningFee: PropTypes.number.isRequired,
